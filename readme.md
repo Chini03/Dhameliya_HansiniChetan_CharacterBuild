@@ -39,5 +39,10 @@ MIT
 - https://in.pinterest.com/pin/438678819971771897/
 - https://in.pinterest.com/pin/923026886157924550/
 - https://in.pinterest.com/pin/670614200797662498/
+- https://naruto.fandom.com/wiki/Naruto_Uzumaki
+- https://naruto.fandom.com/wiki/Tsunade
+- https://naruto.fandom.com/wiki/Kakashi_Hatake
+- https://naruto.fandom.com/wiki/Minato_Namikaze
+- https://naruto.fandom.com/wiki/Kurama
 
 
