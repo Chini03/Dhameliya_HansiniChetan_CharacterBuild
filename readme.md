@@ -34,5 +34,10 @@ MIT
 - https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest?cb=20230803224121
 - https://static.wikia.nocookie.net/naruto/images/b/b3/Tsunade_infobox2.png/revision/latest?cb=20230315211457
 - https://static.wikia.nocookie.net/naruto/images/7/71/Minato_Namikaze.png/revision/latest?cb=20160125175116
+- https://in.pinterest.com/pin/345299496430497101/
+- https://in.pinterest.com/pin/952722496167889707/
+- https://in.pinterest.com/pin/438678819971771897/
+- https://in.pinterest.com/pin/923026886157924550/
+- https://in.pinterest.com/pin/670614200797662498/
 
 
