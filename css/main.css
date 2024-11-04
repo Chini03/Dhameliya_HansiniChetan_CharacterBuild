@@ -28,10 +28,53 @@ footer {
     padding: 32px;
 }
 
+body nav {
+    background-color: #141617;
+    background-image: url(../images/banner.jpg);
+    background-blend-mode: overlay;
+    background-size:contain;
+}
+
+body nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+body nav ul li {
+    height: 240px;
+    margin: 10px 8px;
+    background-color: #061e42;
+    box-shadow: 0 155px 0 0 #e1e11f inset;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+body nav ul li:hover {
+    box-shadow: 0 240px 0 0 #e1e11f inset;   
+}
+
+body nav ul li a {
+    text-decoration: none;
+}
+
+body nav ul li a h3 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
 /* Class Styles */
 
 .hidden {
     display: none;
+}
+
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/sprite_sheet.jpg);
 }
 
 /* Id Styles */
@@ -44,3 +87,57 @@ footer {
     padding: 8px;
     border-radius: 16px;
 }
+
+#kakashi { background-position: -300px 0; }
+
+#tsunade { background-position: -450px 0; }
+
+#kurama { background-position: -150px 0; }
+
+#minato { background-position: -600px 0; }
+
+#naruto:hover, #kakashi:hover, #tsunade:hover, #kurama:hover, #minato:hover { background-position-y: -150px; }
+
+#instructions {
+    text-align: center;
+}
+
+#instructions h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#instructions p{
+    margin-top: 0;
+    font-size: 16px;
+}
+
+/* Light Box Styles */
+
+.light {
+    display: none;
+    background-color: #061e42;
+    background-image: url(../images/naruto_lightbox_transparent.webp);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 0px bottom;
+    text-align: left;
+    top: 0;
+    left: 0;
+}
+
+.light:target {
+    display: block;
+}
+
+#light_ka {background-image: url(../images/kakashi_lightbox_transparent.webp);}
+
+#light_tsu {background-image: url(../images/tsunade_lightbox_transparent.webp);}
+
+#light_ku {background-image: url(../images/kuruma_lightbox_transparent.webp);}
+
+#light_mi {background-image: url(../images/minato_lightbox_trasparent.webp);}
