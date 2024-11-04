@@ -1,8 +1,6 @@
 /* Tag Styles */
 
-html, body {
-    height: 100%;
-}
+html, body { height: 100%; }
 
 body {
     margin: 0 auto;
@@ -51,13 +49,9 @@ body nav ul li {
     transition: box-shadow 0.2s ease-in-out;
 }
 
-body nav ul li:hover {
-    box-shadow: 0 240px 0 0 #e1e11f inset;   
-}
+body nav ul li:hover { box-shadow: 0 240px 0 0 #e1e11f inset; }
 
-body nav ul li a {
-    text-decoration: none;
-}
+body nav ul li a { text-decoration: none; }
 
 body nav ul li a h3 {
     color: #ffffff;
@@ -67,9 +61,7 @@ body nav ul li a h3 {
 
 /* Class Styles */
 
-.hidden {
-    display: none;
-}
+.hidden { display: none; }
 
 .sprite {
     width: 150px;
@@ -98,9 +90,7 @@ body nav ul li a h3 {
 
 #naruto:hover, #kakashi:hover, #tsunade:hover, #kurama:hover, #minato:hover { background-position-y: -150px; }
 
-#instructions {
-    text-align: center;
-}
+#instructions { text-align: center; }
 
 #instructions h3{
     margin-top: 40px;
@@ -121,23 +111,74 @@ body nav ul li a h3 {
     background-image: url(../images/naruto_lightbox_transparent.webp);
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 98.6vh;
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 0px bottom;
     text-align: left;
     top: 0;
     left: 0;
+    padding-top: 10px;
 }
 
-.light:target {
-    display: block;
+.light:target { display: block; }
+
+#light_ka {
+    background-image: url(../images/kakashi_lightbox_transparent.webp);
+    background-size: 70vh 45vw;
 }
 
-#light_ka {background-image: url(../images/kakashi_lightbox_transparent.webp);}
+#light_tsu {
+    background-image: url(../images/tsunade_lightbox_transparent.webp);
+    background-size: 70vh 45vw;
+}
 
-#light_tsu {background-image: url(../images/tsunade_lightbox_transparent.webp);}
+#light_ku {
+    background-image: url(../images/kuruma_lightbox_transparent.webp);
+    background-size: 70vh 37vw;
+}
 
-#light_ku {background-image: url(../images/kuruma_lightbox_transparent.webp);}
+#light_mi {
+    background-image: url(../images/minato_lightbox_trasparent.webp);
+    background-size: 70vh 45vw;
+}
 
-#light_mi {background-image: url(../images/minato_lightbox_trasparent.webp);}
+.light article {
+    padding: 24px;
+    width: 800px;
+    margin-left: 35%;
+    top: 50px;
+    color: #061e42;
+    text-align: center;
+    background-color: #d6d6ac;
+    border-radius: 16px;
+    margin-top: 80px;
+}
+
+.light article p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.light article h3{
+    margin-bottom: 12px;
+    font-size: 32px;
+}
+
+.light_close {
+    border: 1px solid #d6d6ac;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #d6d6ac;
+    font-weight: bold;
+    margin-left: 95%;
+}
+
+.light_close:hover {
+    border: 1px solid #ffffff;
+    text-decoration: underline;
+    color: #ffffff;
+}
